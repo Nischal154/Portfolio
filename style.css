@@ -188,16 +188,17 @@ body {
 }
 
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: flex;
+    justify-content: center;
     gap: 40px;
     width: 100%;
     margin-top: 40px;
-    /* spacing */
+    flex-wrap: wrap;
 }
 
 .skill-card {
     width: 250px;
+    /* Base width */
     height: 320px;
     border-radius: 15px;
     display: flex;
