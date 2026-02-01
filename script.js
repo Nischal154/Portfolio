@@ -14,12 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Fade in
             greetingElement.style.opacity = '1';
-        }, 500); // Wait for fade out to complete (0.5s match CSS)
+        }, 250); // Wait for fade out to complete (0.25s match CSS)
     }
 
     // Initialize opacity for transition
     greetingElement.style.opacity = '1';
 
-    // Change greeting every 3 seconds
-    setInterval(changeGreeting, 3000);
+    // Change greeting every 1.5 seconds
+    setInterval(changeGreeting, 1500);
 });
