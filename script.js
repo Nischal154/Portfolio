@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const greetingElement = document.getElementById('greeting');
-    const greetings = ['Hello', 'Holla', 'Bonjour', 'Namaste', 'Ciao'];
+    const greetings = ['Hello', 'Namaste', 'Bonjour', 'Holla', 'Ciao'];
     let currentIndex = 0;
 
     function changeGreeting() {
